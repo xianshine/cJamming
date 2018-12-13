@@ -1,0 +1,177 @@
+# 2d Lennard-Jones melt and subsequent energy minimization
+
+units		lj
+dimension	3
+atom_style	atomic
+comm_modify     vel yes
+
+boundary        p p p
+region          box block 0 34.4214 0 34.4214 0 34.4214
+create_box 40 box
+create_atoms  1   random 1071 201 NULL
+create_atoms  2   random 1071 202 NULL
+create_atoms  3   random 1071 203 NULL
+create_atoms  4   random 1071 204 NULL
+create_atoms  5   random 1071 205 NULL
+create_atoms  6   random 1071 206 NULL
+create_atoms  7   random 1071 207 NULL
+create_atoms  8   random 1071 208 NULL
+create_atoms  9   random 1071 209 NULL
+create_atoms  10   random 1071 210 NULL
+create_atoms  11   random 1071 211 NULL
+create_atoms  12   random 1071 212 NULL
+create_atoms  13   random 1071 213 NULL
+create_atoms  14   random 1071 214 NULL
+create_atoms  15   random 1071 215 NULL
+create_atoms  16   random 1071 216 NULL
+create_atoms  17   random 1071 217 NULL
+create_atoms  18   random 1071 218 NULL
+create_atoms  19   random 1071 219 NULL
+create_atoms  20   random 1071 220 NULL
+create_atoms  21   random 1071 221 NULL
+create_atoms  22   random 1071 222 NULL
+create_atoms  23   random 1071 223 NULL
+create_atoms  24   random 1071 224 NULL
+create_atoms  25   random 1071 225 NULL
+create_atoms  26   random 1071 226 NULL
+create_atoms  27   random 1071 227 NULL
+create_atoms  28   random 1071 228 NULL
+create_atoms  29   random 1071 229 NULL
+create_atoms  30   random 1071 230 NULL
+create_atoms  31   random 1071 231 NULL
+create_atoms  32   random 1071 232 NULL
+create_atoms  33   random 1071 233 NULL
+create_atoms  34   random 1071 234 NULL
+create_atoms  35   random 1071 235 NULL
+create_atoms  36   random 1071 236 NULL
+create_atoms  37   random 1071 237 NULL
+create_atoms  38   random 1071 238 NULL
+create_atoms  39   random 1071 239 NULL
+create_atoms  40   random 1071 240 NULL
+#create_atoms    1 random 100 12321 NULL
+
+mass		* 1.0
+
+pair_style      dpd 1.0 1.0 12321
+pair_coeff      *  * 1 0 1.0
+#pair_coeff      1  1 1 0 3
+pair_coeff 1  1 1 0 3.0
+pair_coeff 2  2 1 0 3.0
+pair_coeff 3  3 1 0 3.0
+pair_coeff 4  4 1 0 3.0
+pair_coeff 5  5 1 0 3.0
+pair_coeff 6  6 1 0 3.0
+pair_coeff 7  7 1 0 3.0
+pair_coeff 8  8 1 0 3.0
+pair_coeff 9  9 1 0 3.0
+pair_coeff 10  10 1 0 3.0
+pair_coeff 11  11 1 0 3.0
+pair_coeff 12  12 1 0 3.0
+pair_coeff 13  13 1 0 3.0
+pair_coeff 14  14 1 0 3.0
+pair_coeff 15  15 1 0 3.0
+pair_coeff 16  16 1 0 3.0
+pair_coeff 17  17 1 0 3.0
+pair_coeff 18  18 1 0 3.0
+pair_coeff 19  19 1 0 3.0
+pair_coeff 20  20 1 0 3.0
+pair_coeff 21  21 1 0 3.0
+pair_coeff 22  22 1 0 3.0
+pair_coeff 23  23 1 0 3.0
+pair_coeff 24  24 1 0 3.0
+pair_coeff 25  25 1 0 3.0
+pair_coeff 26  26 1 0 3.0
+pair_coeff 27  27 1 0 3.0
+pair_coeff 28  28 1 0 3.0
+pair_coeff 29  29 1 0 3.0
+pair_coeff 30  30 1 0 3.0
+pair_coeff 31  31 1 0 3.0
+pair_coeff 32  32 1 0 3.0
+pair_coeff 33  33 1 0 3.0
+pair_coeff 34  34 1 0 3.0
+pair_coeff 35  35 1 0 3.0
+pair_coeff 36  36 1 0 3.0
+pair_coeff 37  37 1 0 3.0
+pair_coeff 38  38 1 0 3.0
+pair_coeff 39  39 1 0 3.0
+pair_coeff 40  40 1 0 3.0
+
+group 1 type 1
+group 2 type 2
+group 3 type 3
+group 4 type 4
+group 5 type 5
+group 6 type 6
+group 7 type 7
+group 8 type 8
+group 9 type 9
+group 10 type 10
+group 11 type 11
+group 12 type 12
+group 13 type 13
+group 14 type 14
+group 15 type 15
+group 16 type 16
+group 17 type 17
+group 18 type 18
+group 19 type 19
+group 20 type 20
+group 21 type 21
+group 22 type 22
+group 23 type 23
+group 24 type 24
+group 25 type 25
+group 26 type 26
+group 27 type 27
+group 28 type 28
+group 29 type 29
+group 30 type 30
+group 31 type 31
+compute 1 1 group/group 1
+compute 2 2 group/group 2
+compute 3 3 group/group 3
+compute 4 4 group/group 4
+compute 5 5 group/group 5
+compute 6 6 group/group 6
+compute 7 7 group/group 7
+compute 8 8 group/group 8
+compute 9 9 group/group 9
+compute 10 10 group/group 10
+compute 11 11 group/group 11
+compute 12 12 group/group 12
+compute 13 13 group/group 13
+compute 14 14 group/group 14
+compute 15 15 group/group 15
+compute 16 16 group/group 16
+compute 17 17 group/group 17
+compute 18 18 group/group 18
+compute 19 19 group/group 19
+compute 20 20 group/group 20
+compute 21 21 group/group 21
+compute 22 22 group/group 22
+compute 23 23 group/group 23
+compute 24 24 group/group 24
+compute 25 25 group/group 25
+compute 26 26 group/group 26
+compute 27 27 group/group 27
+compute 28 28 group/group 28
+compute 29 29 group/group 29
+compute 30 30 group/group 30
+compute 31 31 group/group 31
+thermo_style    custom step c_1 c_2 c_3 c_4 c_5 c_6 c_7 c_8 c_9 c_10 c_11 c_12 c_13 c_14 c_15 c_16 c_17 c_18 c_19 c_20 c_21 c_22 c_23 c_24 c_25 c_26 c_27 c_28 c_29 c_30 c_31
+thermo 1000000
+
+neighbor        2.0  bin
+neigh_modify    every 1
+
+#dump		1 all xyz 100 min.xyz
+#dump            1 all dcd 1000 min.dcd
+dump            1 all atom 1000000 min.1.atom
+#dump            2 all molfile 10000 min.pdb pdb
+
+min_style       cg
+minimize   1.0e-10 1.0e-10 100000 100000
+#min_style       sd
+##minimize   1.0e-40 1.0e-40 100000 100000
+min_style       hftn
+minimize   1.0e-40 1.0e-40 1000000 1000000

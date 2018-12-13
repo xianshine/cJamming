@@ -1,0 +1,326 @@
+LAMMPS (11 Aug 2017)
+Created orthogonal box = (0 0 0) to (34.6326 34.6326 34.6326)
+  2 by 1 by 2 MPI processor grid
+Created 1071 atoms
+Created 1071 atoms
+Created 1071 atoms
+Created 1071 atoms
+Created 1071 atoms
+Created 1071 atoms
+Created 1071 atoms
+Created 1071 atoms
+Created 1071 atoms
+Created 1071 atoms
+Created 1071 atoms
+Created 1071 atoms
+Created 1071 atoms
+Created 1071 atoms
+Created 1071 atoms
+Created 1071 atoms
+Created 1071 atoms
+Created 1071 atoms
+Created 1071 atoms
+Created 1071 atoms
+Created 1071 atoms
+Created 1071 atoms
+Created 1071 atoms
+Created 1071 atoms
+Created 1071 atoms
+Created 1071 atoms
+Created 1071 atoms
+Created 1071 atoms
+Created 1071 atoms
+Created 1071 atoms
+Created 1071 atoms
+Created 1071 atoms
+Created 1071 atoms
+Created 1071 atoms
+Created 1071 atoms
+Created 1071 atoms
+Created 1071 atoms
+Created 1071 atoms
+Created 1071 atoms
+Created 1071 atoms
+1071 atoms in group 1
+1071 atoms in group 2
+1071 atoms in group 3
+1071 atoms in group 4
+1071 atoms in group 5
+1071 atoms in group 6
+1071 atoms in group 7
+1071 atoms in group 8
+1071 atoms in group 9
+1071 atoms in group 10
+1071 atoms in group 11
+1071 atoms in group 12
+1071 atoms in group 13
+1071 atoms in group 14
+1071 atoms in group 15
+1071 atoms in group 16
+1071 atoms in group 17
+1071 atoms in group 18
+1071 atoms in group 19
+1071 atoms in group 20
+1071 atoms in group 21
+1071 atoms in group 22
+1071 atoms in group 23
+1071 atoms in group 24
+1071 atoms in group 25
+1071 atoms in group 26
+1071 atoms in group 27
+1071 atoms in group 28
+1071 atoms in group 29
+1071 atoms in group 30
+1071 atoms in group 31
+WARNING: Using 'neigh_modify every 1 delay 0 check yes' setting during minimization (../min.cpp:168)
+Neighbor list info ...
+  update every 1 steps, delay 0 steps, check yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 5
+  ghost atom cutoff = 5
+  binsize = 2.5, bins = 14 14 14
+  32 neighbor lists, perpetual/occasional/extra = 1 31 0
+  (1) pair dpd, perpetual
+      attributes: half, newton on
+      pair build: half/bin/atomonly/newton
+      stencil: half/bin/3d/newton
+      bin: standard
+  (2) compute group/group, occasional, copy from (1)
+      attributes: half, newton on
+      pair build: copy
+      stencil: none
+      bin: none
+  (3) compute group/group, occasional, copy from (1)
+      attributes: half, newton on
+      pair build: copy
+      stencil: none
+      bin: none
+  (4) compute group/group, occasional, copy from (1)
+      attributes: half, newton on
+      pair build: copy
+      stencil: none
+      bin: none
+  (5) compute group/group, occasional, copy from (1)
+      attributes: half, newton on
+      pair build: copy
+      stencil: none
+      bin: none
+  (6) compute group/group, occasional, copy from (1)
+      attributes: half, newton on
+      pair build: copy
+      stencil: none
+      bin: none
+  (7) compute group/group, occasional, copy from (1)
+      attributes: half, newton on
+      pair build: copy
+      stencil: none
+      bin: none
+  (8) compute group/group, occasional, copy from (1)
+      attributes: half, newton on
+      pair build: copy
+      stencil: none
+      bin: none
+  (9) compute group/group, occasional, copy from (1)
+      attributes: half, newton on
+      pair build: copy
+      stencil: none
+      bin: none
+  (10) compute group/group, occasional, copy from (1)
+      attributes: half, newton on
+      pair build: copy
+      stencil: none
+      bin: none
+  (11) compute group/group, occasional, copy from (1)
+      attributes: half, newton on
+      pair build: copy
+      stencil: none
+      bin: none
+  (12) compute group/group, occasional, copy from (1)
+      attributes: half, newton on
+      pair build: copy
+      stencil: none
+      bin: none
+  (13) compute group/group, occasional, copy from (1)
+      attributes: half, newton on
+      pair build: copy
+      stencil: none
+      bin: none
+  (14) compute group/group, occasional, copy from (1)
+      attributes: half, newton on
+      pair build: copy
+      stencil: none
+      bin: none
+  (15) compute group/group, occasional, copy from (1)
+      attributes: half, newton on
+      pair build: copy
+      stencil: none
+      bin: none
+  (16) compute group/group, occasional, copy from (1)
+      attributes: half, newton on
+      pair build: copy
+      stencil: none
+      bin: none
+  (17) compute group/group, occasional, copy from (1)
+      attributes: half, newton on
+      pair build: copy
+      stencil: none
+      bin: none
+  (18) compute group/group, occasional, copy from (1)
+      attributes: half, newton on
+      pair build: copy
+      stencil: none
+      bin: none
+  (19) compute group/group, occasional, copy from (1)
+      attributes: half, newton on
+      pair build: copy
+      stencil: none
+      bin: none
+  (20) compute group/group, occasional, copy from (1)
+      attributes: half, newton on
+      pair build: copy
+      stencil: none
+      bin: none
+  (21) compute group/group, occasional, copy from (1)
+      attributes: half, newton on
+      pair build: copy
+      stencil: none
+      bin: none
+  (22) compute group/group, occasional, copy from (1)
+      attributes: half, newton on
+      pair build: copy
+      stencil: none
+      bin: none
+  (23) compute group/group, occasional, copy from (1)
+      attributes: half, newton on
+      pair build: copy
+      stencil: none
+      bin: none
+  (24) compute group/group, occasional, copy from (1)
+      attributes: half, newton on
+      pair build: copy
+      stencil: none
+      bin: none
+  (25) compute group/group, occasional, copy from (1)
+      attributes: half, newton on
+      pair build: copy
+      stencil: none
+      bin: none
+  (26) compute group/group, occasional, copy from (1)
+      attributes: half, newton on
+      pair build: copy
+      stencil: none
+      bin: none
+  (27) compute group/group, occasional, copy from (1)
+      attributes: half, newton on
+      pair build: copy
+      stencil: none
+      bin: none
+  (28) compute group/group, occasional, copy from (1)
+      attributes: half, newton on
+      pair build: copy
+      stencil: none
+      bin: none
+  (29) compute group/group, occasional, copy from (1)
+      attributes: half, newton on
+      pair build: copy
+      stencil: none
+      bin: none
+  (30) compute group/group, occasional, copy from (1)
+      attributes: half, newton on
+      pair build: copy
+      stencil: none
+      bin: none
+  (31) compute group/group, occasional, copy from (1)
+      attributes: half, newton on
+      pair build: copy
+      stencil: none
+      bin: none
+  (32) compute group/group, occasional, copy from (1)
+      attributes: half, newton on
+      pair build: copy
+      stencil: none
+      bin: none
+Setting up cg style minimization ...
+  Unit style    : lj
+  Current step  : 0
+Per MPI rank memory allocation (min/avg/max) = 16.29 | 16.39 | 16.68 Mbytes
+Step c_1 c_2 c_3 c_4 c_5 c_6 c_7 c_8 c_9 c_10 c_11 c_12 c_13 c_14 c_15 c_16 c_17 c_18 c_19 c_20 c_21 c_22 c_23 c_24 c_25 c_26 c_27 c_28 c_29 c_30 c_31 
+       0 0.0055930391 0.0058926008 0.0058832009  0.005353879 0.0048835984 0.0054533588 0.0056103708 0.0056693619  0.006063695 0.0058107199 0.0052126483 0.0053014726 0.0056286001 0.0054876222  0.005137129  0.005523951 0.0054766103 0.0052708239 0.0050738943 0.0052448107  0.005346655 0.0052179354 0.0054101349 0.0053649652 0.0053379079 0.0054431119 0.0056690998  0.005329929 0.0053134723 0.0049694202 0.0053633178 
+    3076 6.415294e-19 4.8335111e-19 6.218755e-19 5.0751599e-19 4.0755791e-19 5.5158684e-19 6.0594426e-19 4.7910673e-19 5.2388519e-19 5.8647064e-19 4.610382e-19 5.296554e-19 4.7134983e-19 5.4771407e-19 4.9684983e-19 6.1283636e-19 6.0159973e-19 4.4569847e-19 4.2834419e-19 5.5827644e-19 4.9950359e-19 4.7133825e-19 5.2604874e-19 5.1946484e-19 4.3385557e-19 4.1832521e-19 4.9993101e-19 4.295548e-19 5.5648393e-19 4.8146247e-19 5.3556267e-19 
+Loop time of 159.591 on 4 procs for 3076 steps with 42840 atoms
+
+42.6% CPU use with 4 MPI tasks x no OpenMP threads
+
+Minimization stats:
+  Stopping criterion = energy tolerance
+  Energy initial, next-to-last, final = 
+        0.323644065632  3.46075587476e-17  3.41260763366e-17
+  Force two-norm initial, final = 174.776 2.56561e-07
+  Force max component initial, final = 3.0259 1.15415e-08
+  Final line search alpha, max atom move = 1 1.15415e-08
+  Iterations, force evaluations = 3076 6071
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 83.559     | 117.44     | 133.73     | 183.2 | 73.59
+Neigh   | 1.7101     | 1.8604     | 1.9244     |   6.4 |  1.17
+Comm    | 16.911     | 33.614     | 68.565     | 353.0 | 21.06
+Output  | 0          | 0          | 0          |   0.0 |  0.00
+Modify  | 0          | 0          | 0          |   0.0 |  0.00
+Other   |            | 6.675      |            |       |  4.18
+
+Nlocal:    10710 ave 10730 max 10690 min
+Histogram: 1 0 0 0 1 1 0 0 0 1
+Nghost:    23635.5 ave 23674 max 23596 min
+Histogram: 1 0 0 0 1 1 0 0 0 1
+Neighs:    682958 ave 696430 max 667911 min
+Histogram: 1 0 0 1 0 0 0 1 0 1
+
+Total # of neighbors = 2731830
+Ave neighs/atom = 63.7682
+Neighbor list builds = 10
+Dangerous builds = 0
+WARNING: Using 'neigh_modify every 1 delay 0 check yes' setting during minimization (../min.cpp:168)
+Setting up hftn style minimization ...
+  Unit style    : lj
+  Current step  : 3076
+Per MPI rank memory allocation (min/avg/max) = 103.6 | 112.7 | 115.8 Mbytes
+Step c_1 c_2 c_3 c_4 c_5 c_6 c_7 c_8 c_9 c_10 c_11 c_12 c_13 c_14 c_15 c_16 c_17 c_18 c_19 c_20 c_21 c_22 c_23 c_24 c_25 c_26 c_27 c_28 c_29 c_30 c_31 
+    3076 6.4116816e-19 4.8335111e-19 6.218755e-19 5.0751599e-19 4.0755791e-19 5.4546289e-19 6.0594426e-19 4.7910673e-19 5.2388519e-19 5.8647064e-19 4.610382e-19 5.296554e-19 4.7134983e-19 5.4771407e-19 4.9684983e-19 6.1283636e-19 6.0159973e-19 4.4569847e-19 4.2834419e-19 5.5827644e-19 4.9950359e-19 4.7133825e-19 5.2604874e-19 5.1946484e-19 4.3385557e-19 4.1832521e-19 4.9993101e-19 4.295548e-19 5.5648393e-19 4.8146247e-19 5.3550472e-19 
+  163021 1.0248452e-23 7.6860498e-24 1.0275138e-23 8.3300674e-24 6.6621536e-24 8.8541923e-24 9.8919369e-24 7.7063404e-24 8.5180751e-24 9.5972759e-24 7.4985716e-24 8.5420744e-24 7.8492434e-24 8.9295242e-24  8.05735e-24 9.9652117e-24 9.6400324e-24 7.2198007e-24 6.8690393e-24 9.3091114e-24 8.0753079e-24 7.531809e-24 8.7294716e-24 8.3128063e-24 7.122904e-24 6.6877841e-24 8.0430054e-24 7.1306674e-24 9.1557863e-24 7.7704683e-24 8.6366743e-24 
+Loop time of 20417.4 on 4 procs for 159944 steps with 42840 atoms
+
+42.9% CPU use with 4 MPI tasks x no OpenMP threads
+
+Minimization stats:
+  Stopping criterion = max force evaluations
+  Energy initial, next-to-last, final = 
+     3.41260763361e-17  3.57867668113e-17  5.49912308555e-22
+  Force two-norm initial, final = 2.56561e-07 7.64737e-11
+  Force max component initial, final = 1.15415e-08 4.21969e-12
+  Final line search alpha, max atom move = 0 0
+  Iterations, force evaluations = 159944 1000000
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 11124      | 14765      | 16539      |1754.0 | 72.32
+Neigh   | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 2737.5     | 4567.3     | 8366.7     |3287.4 | 22.37
+Output  | 0          | 0          | 0          |   0.0 |  0.00
+Modify  | 0          | 0          | 0          |   0.0 |  0.00
+Other   |            | 1085       |            |       |  5.31
+
+Nlocal:    10710 ave 10721 max 10700 min
+Histogram: 2 0 0 0 0 0 0 0 1 1
+Nghost:    23622 ave 23662 max 23583 min
+Histogram: 1 0 1 0 0 0 1 0 0 1
+Neighs:    683039 ave 697392 max 668556 min
+Histogram: 1 0 0 1 0 0 1 0 0 1
+
+Total # of neighbors = 2732156
+Ave neighs/atom = 63.7758
+Neighbor list builds = 0
+Dangerous builds = 0
+Total wall time: 5:42:57
