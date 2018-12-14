@@ -17,6 +17,16 @@ rho: packing fraction
 
 rC: homotypic cut-off distance in terms of heterotypic interaction range
 
+In each folder, 
+
+in.#.min are lammps input files
+
+log.#.out are lammps output files. Final energy after the minimization can be found in it.
+
+min.#.atom are minized packing structures
+
+cluster.#.dat are clustering results. Each line stores cluster information for beads of a single color. For example, the 1st line is clustering information for beads of type 1 in the configuration. The sequence of the beads are the same as they appear in min.#.atom
+
 #### analysis_codes/
 contains code for analysis of experimental data and simulation data
 
